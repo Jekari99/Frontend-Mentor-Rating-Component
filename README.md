@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI/hub/responsive-interactive-rating-component-Q4kaE_Rs4a)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/responsive-interactive-rating-component-Q4kaE_Rs4a)
 - Live Site URL: [Live Site](https://frontend-mentor-rating-component-solution.netlify.app/)
 
 ## My process
