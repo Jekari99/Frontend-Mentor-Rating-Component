@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+    font-family: Overpass;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    background-color: hsl(216, 12%, 8%);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    margin: auto;
+}
+
+.rate_card {
+    background-color: hsl(213, 19%, 18%);
+    max-width: 400px;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 5rem;
+}
+
+.rate_card h2 {
+    color: white;
+    margin: 0 0.5rem;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.rate_card p {
+    color: hsl(217, 12%, 63%);
+    margin: 0 0.5rem;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.starImage img {
+    margin: 1rem 1rem 0.5rem 1rem;
+    padding: 15px;
+    background-color: hsl(216, 12%, 24%);
+    border-radius: 50%;
+}
+
+.ratings {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 0;
+}
+
+.ratings button {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    color: hsl(217, 12%, 63%);
+    background-color: hsl(216, 12%, 24%);
+}
+
+.ratings button:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.ratings button:focus {
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+}
+
+.submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 0 0.5rem;
+}
+
+.submit button {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: hsl(25, 97%, 53%);
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+}
+
+.submit button:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+.thank_you_card {
+    background-color: hsl(213, 19%, 18%);
+    max-width: 400px;
+    border-radius: 20px;
+    margin-top: 5rem;
+    padding: 20px;
+    display: none;
+}
+
+.thank_you_image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#rate_selection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+#rate_selection p {
+    text-align: center;
+    background-color: hsl(216, 12%, 24%);
+    width: 50%;
+    padding: 2px;
+    border-radius: 10px;
+    color: hsl(25, 97%, 53%);
+}
+
+.thank_you_card h1 {
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+}
+
+.thank_you_card p {
+    text-align: center;
+    color: hsl(216, 12%, 54%);
+    font-size: 15px;
+}
